@@ -22,11 +22,6 @@ def INSERT_INTO_DWH_EMP_DIM(rows_to_insert):
     """
     return sql
 
-
-
-    
-    
-    
 def UPDATE_DWH_EMP_DIM(ids_to_update):
     print("ids_to_update",ids_to_update)
     sql = f"""
